@@ -1,0 +1,237 @@
+ID:2398769524
+PW:471213
+
+ERP: Stands for Enterpise resouce planing
+
+	-> Its is a bussiness process managment software.
+	-> mainly provides integrated and countinsouly businesss process
+
+
+BAAN : Stands for Budget Authrozation Account Number
+
+      ->  Baan was created by Jan baan in 1978 in nerthlands.
+	-> Yan baan,Jan baan was brothers.
+	-> The baan company focused on on the creation of erp software.
+	-> baan a real threat to market lead on 1994.
+	-> 1995 IPO (public listed company)sales growth was clamined to reach on 91%year.
+ 	-> In june 2000 Inveses 700 million $
+	-> In 2003 Inveansys slod its baan unit to SSA Gobal technologies 135$ in august 2005
+	-> SSA global released on new version SSAEERP LN6.1
+	-> 2006 INFOR 150$
+
+
+BAAN VERSIONS:
+
+	-> Triton 1.0,2.0,3.0
+	-> BAAN 4.0,5.0,5.1,5.2
+	-> SSA ERP6.1 / Infoe erp ln 6.1
+	-> ERP LN 6.1 FP6
+	-> ERP LN 6.1 FP7
+	-> ERP LN 6.1 10.2.1
+	-> ERP LN 10.3,
+	-> ERP LN 10.4,
+	-> ERP LN 10.5,
+	-> ERP LN 10.6,
+	-> ERP LN 10.7 Present Working
+
+	-> ERP LN 10.8 Up comming Early days
+
+
+INFOR :
+
+	-> Infor is a  product which contains the applications :
+	-> INFOR applications
+	-> INFOR LN,BIRST,ION,M3.
+
+
+ERP MODULES:
+
+	-> Procument,
+	-> manufutring,
+	-> project,
+	-> service,
+	-> crm,(customer relation ship managment)
+	-> finance,
+	-> plannig
+
+LN Techincal topic:
+
+1)APPLICATION ARCHITECTURE(APPLICATION ARCHITECTURE)
+2)SOFTWARE ARCHITECTURE
+3)SOFTWARE COMPONENTS
+4)DOMAINS
+5)TABLES
+6)SESSIONS
+7)QUESTIONS
+8)MESSAGES
+9)LABLES
+10FORMS
+11)PROGRMM SCRIPTS
+	Scriptis type:
+	1)3gl
+	2)4gl  event sessions
+	3)dal2
+	4)dll
+
+1)Application Architecture:
+
+its is a 3 tier architecture
+
+UI(user interface)  VM(verctial machine)baanshell    Database Mysql
+
+UI - user interface where we user interacts the computer (userinterface driver).
+
+VM -  verctial machine is also know as baan shell(Bsheel) server in a server.
+
+database - it stores the data (databse driver).
+________________________________________________________________________________________________________________
+SOFTWARE ARCHITECTURE :
+
+1)Pacakge Combination
+2)Package by package Combination
+3)Package VRC(version release customer)
+
+Package :It is  defines a 2 letters word (PP)
+Classcification of group based upon funcationaltiy we have different package .
+tp,td,ti,tf,tc,tc,wh,ci,bp etc
+
+TP-Project
+td-distibution
+tf-finance
+tc-common
+wh-warehouse
+ts-service
+cp-plannig
+
+module: it is defines 3 letter MMM
+package is linked with module.
+  PPMMM
+ moudle sub -functionality of a package
+  tf -   acp(accounts payable)
+         gld(gender ledger)
+        cmg(cash managment)
+  td - sls(sales)
+	pur(purchase)
+
+       td sls 4 1 00m000 sessionscode
+ 
+	tpest6100m000
+
+1)Package combination:
+
+every package combination is collection of various infor ln package.
+every package
+ to link aspecific user and comapany.
+
+2)pacakge by package combination:
+
+pacakge is linked packge combination.
+3)package vrc:
+
+
+B61  a base vrc
+b61u a standrad/upadte version
+b61/ind 10 locationzation
+b61c   10 customized 
+_________________________________________________________________________________________-\
+
+Software components:
+Domain:dddd(name)
+ppdddd(tc name)
+finite properties of datatype
+string:char,numeric
+multibytestring:char,number
+long:number__,_,_,__,_,_,_
+double: decmiacl__,_,_,_
+flot:decmial 
+int:number
+date:21-05-2022
+utc:21-05-2022:11:34:21
+enum:droup downlist
+byte:numer(1,2)_,_
+text:
+
+tc name
+
+student name: string
+d.o.b :utc
+numer:string ,long
+date:date
+gender:enum
+fees:double
+eamil.com:string
+adhar card:string
+
+Table:400,600,601
+td pur 400 field (ffff)
+combination of row and coloumn
+tdpur400.name
+tdpur400.orno
+
+Nomenclature:
+package:pp
+td,
+moudle:ppmmm
+
+td pur
+
+domain:ppdddd
+td st06
+table:ppmmmttt
+tdpur400
+
+tablefiled:ppmmmttt.ffff
+tdpur400.addr
+
+CRDD(CONVERT RUNTIME TO DATA DICTIONARY)
+when we create a new table and exetenig the table or new domain.
+
+Sessions:td(package)pur(module)4100(400 table)1 (session type)m/s(multioccurence,singleoccurence)000(exetensions)
+tdpur4100m000(purchase order)maintainsesion
+tdpur4200m000(updatesession)
+tdpur4400m000(printsession)
+tdpur4500m00(displayseesion)
+tdpur4600m00(mmt)sattlitesession
+
+
+tdpur4100m000
+order no
+bp
+items
+wsre
+quantity
+upadte
+
+tdpur41m00
+1)maintainsession.(tablefiled)
+2)updatesession.(formfiled)
+3)bargraph.
+4)printsession.(tdpur4400m000)(formfiled)
+5)displaysession and(table filed)
+6)MMT (mutli main table sessions)
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
